@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Головна</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center text-center px-6" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1920');">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-3xl">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">Кава від Стрийка</h1>
+            <p class="text-xl text-amber-100 mb-8">Найсмачніша кава та атмосфера затишку у серці Стрия</p>
+            <a href="booking.html" class="inline-block bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Забронювати столик</a>
+        </div>
+    </section>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-amber-900 mb-4">Популярні позиції нашого меню</h2>
+            <p class="text-gray-600">Спробуйте улюблені смаки наших гостей</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&q=80&w=600" alt="Еспресо" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Еспресо</h3>
+                        <span class="text-amber-600 font-bold text-lg">45₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Класичне міцне еспресо з добірних кавових зерен</p>
+                    <a href="services.html" class="text-amber-700 font-semibold hover:underline text-sm">Переглянути в меню &rarr;</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&q=80&w=600" alt="Капучино" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Капучино</h3>
+                        <span class="text-amber-600 font-bold text-lg">65₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Ароматна кава з пишною та ніжною молочною пінкою</p>
+                    <a href="services.html" class="text-amber-700 font-semibold hover:underline text-sm">Переглянути в меню &rarr;</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600" alt="Лате" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Лате</h3>
+                        <span class="text-amber-600 font-bold text-lg">75₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">М'який кавовий напій на основі еспресо з великою кількістю молока</p>
+                    <a href="services.html" class="text-amber-700 font-semibold hover:underline text-sm">Переглянути в меню &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-amber-900 text-white rounded-3xl p-10 md:p-16 mb-20 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Завітайте до нас у гості</h2>
+            <p class="text-amber-200 mb-8 max-w-2xl mx-auto">вулиця Тараса Шевченка, 28, Стрий. Працюємо щодня з 09:00 до 21:00 для вашого найкращого настрою.</p>
+            <a href="contacts.html" class="bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-xl inline-block transition">Контакти та карта</a>
+        </div>
+
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold text-amber-900 mb-6 text-center">Відгуки наших гостей</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow border border-amber-100">
+                    <p class="text-gray-700 italic mb-4">"The best capuchino ever !"</p>
+                    <div class="flex justify-between items-center text-sm font-semibold text-gray-900">
+                        <span>Гість кав'ярні</span>
+                        <span class="text-amber-600">★★★★★ (Google Maps)</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow border border-amber-100">
+                    <p class="text-gray-700 italic mb-4">"Чудове місце у центрі Стрия з неймовірно смачною кавою та затишною атмосферою."</p>
+                    <div class="flex justify-between items-center text-sm font-semibold text-gray-900">
+                        <span>Відвідувач</span>
+                        <span class="text-amber-600">★★★★★ (Google Maps)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>"
+    },
+    {
+      "path": "about.html",
+      "content": "<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Про нас</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-amber-100/60 py-4 border-b border-amber-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-amber-900">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Про нас</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold text-amber-900 mb-8 text-center">Про нашу кав'ярню</h1>
+        
+        <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-amber-100 mb-12">
+            <div class="prose prose-amber max-w-none text-gray-700 leading-relaxed space-y-6">
+                <p>«Кава від Стрийка» — це затишна кав’ярня та улюблена локація мешканців і гостей міста Стрий, розташована за адресою вул. Тараса Шевченка, 28. Заклад відомий своєю неперевершеною атмосферою, уважним ставленням до кожного гостя та найвищою якістю кавових напоїв. Професійні баріста майстерно готують як класичні напої, так і авторські варіації, що задовольнять смаки найвибагливіших поціновувачів кави.</p>
+                <p>Окрім ароматного еспресо та ніжного капучино, гостям пропонуються свіжі десерти, випічка та смачні сніданки, які чудово доповнюють ранковий або денний відпочинок. Завдяки затишному інтер'єру, привітному персоналу та високим стандартам обслуговування «Кава від Стрийка» стала справжнім центром кавової культури міста, де приємно зустрічатися з друзями, працювати або просто насолоджуватися моментом спокою.</p>
+            </div>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-amber-900 mb-6 text-center">Чому обирають нас</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow border border-amber-100 text-center">
+                    <div class="text-3xl mb-3">⭐</div>
+                    <h3 class="font-bold text-lg mb-2">Високий рейтинг</h3>
+                    <p class="text-gray-600 text-sm">Високий рейтинг серед відвідувачів на Google Maps (4.7/5 на основі понад 300 відгуків)</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow border border-amber-100 text-center">
+                    <div class="text-3xl mb-3">☕</div>
+                    <h3 class="font-bold text-lg mb-2">Професіоналізм</h3>
+                    <p class="text-gray-600 text-sm">Професійні баріста, які готують ідеальну каву з добірних зерен</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow border border-amber-100 text-center">
+                    <div class="text-3xl mb-3">📍</div>
+                    <h3 class="font-bold text-lg mb-2">Зручне розташування</h3>
+                    <p class="text-gray-600 text-sm">Зручне розташування в центрі міста Стрий</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"
+    },
+    {
+      "path": "services.html",
+      "content": "<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Меню</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-amber-100/60 py-4 border-b border-amber-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-amber-900">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Меню</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-amber-900 mb-4">Наше меню</h1>
+            <p class="text-gray-600">Обирайте найкращі кавові напої та десерти</p>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-amber-900 mb-6 border-b pb-2 border-amber-200">Кавові класичні напої</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl shadow-lg p-6 border border-amber-100">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Еспресо</h3>
+                        <span class="text-amber-600 font-bold text-lg">45₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm">Класичне міцне еспресо з добірних кавових зерен</p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-6 border border-amber-100">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Капучино</h3>
+                        <span class="text-amber-600 font-bold text-lg">65₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm">Ароматна кава з пишною та ніжною молочною пінкою</p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-6 border border-amber-100">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Лате</h3>
+                        <span class="text-amber-600 font-bold text-lg">75₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm">М'який кавовий напій на основі еспресо з великою кількістю молока</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-amber-900 mb-6 border-b pb-2 border-amber-200">Десерти</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl shadow-lg p-6 border border-amber-100">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Фірмовий десерт від Стрийка</h3>
+                        <span class="text-amber-600 font-bold text-lg">90₴</span>
+                    </div>
+                    <p class="text-gray-600 text-sm">Свіжий та ніжний десерт власного приготування до кави</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"
+    },
+    {
+      "path": "gallery.html",
+      "content": "<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Галерея</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-amber-100/60 py-4 border-b border-amber-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-amber-900">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Галерея</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-amber-900 mb-4">Фотогалерея</h1>
+            <p class="text-gray-600">Атмосфера нашої кав'ярні у кожному кадрі</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=600" alt="Coffee shop" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"
+    },
+    {
+      "path": "booking.html",
+      "content": "<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Бронювання</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-amber-100/60 py-4 border-b border-amber-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-amber-900">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Бронювання</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-10 border border-amber-100">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-amber-900 mb-2">Бронювання столика</h1>
+                <p class="text-gray-600">Заповніть форму, і ми зв'яжемося з вами для підтвердження</p>
+            </div>
+
+            <form action="https://formsubmit.co/info@kava-vid-striyka.ua" method="POST" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Ваше ім'я</label>
+                    <input type="text" name="name" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition" placeholder="Введіть ваше ім'я">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Номер телефону</label>
+                    <input type="tel" name="phone" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition" placeholder="+380...">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Дата та час</label>
+                    <input type="datetime-local" name="datetime" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Кількість гостей</label>
+                    <input type="number" name="guests" min="1" max="10" value="2" required class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-100 outline-none transition">
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-white py-5 rounded-xl text-lg font-bold hover:shadow-xl transition">Забронювати</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>"
+    },
+    {
+      "path": "contacts.html",
+      "content": "<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кава від Стрийка - Контакти</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Кава від Стрийка
+            </a>
+            <nav class="hidden md:flex gap-1 items-center font-medium">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2">Бронювання</a>
+                <a href="contacts.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-amber-100/60 py-4 border-b border-amber-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-amber-900">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Контакти</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-amber-900 mb-4">Контактна інформація</h1>
+            <p class="text-gray-600">Ми завжди раді бачити вас у нашій кав'ярні</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="bg-white rounded-3xl shadow-xl p-8 border border-amber-100 space-y-6">
+                <h2 class="text-2xl font-bold text-amber-900 mb-4">Як нас знайти</h2>
+                <div>
+                    <h3 class="font-semibold text-gray-900">Адреса:</h3>
+                    <p class="text-gray-600">вулиця Тараса Шевченка, 28, Стрий, Львівська область, 82400</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900">Телефон:</h3>
+                    <p class="text-gray-600">+380951212745</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900">Електронна пошта:</h3>
+                    <p class="text-gray-600">info@kava-vid-striyka.ua</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900">Години роботи:</h3>
+                    <p class="text-gray-600">Щодня з 09:00 до 21:00</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-2">Соціальні мережі:</h3>
+                    <div class="flex gap-4">
+                        <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-600 hover:underline font-semibold">Instagram</a>
+                        <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-600 hover:underline font-semibold">Facebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-amber-100 h-[450px]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.757011409259!2d23.8510!3d49.2520!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDE1Jz03LjIiTiAyM8KwNTUnMDMuNiJF!5e0!3m2!1suk!2sua!4v1600000000000!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Кава від Стрийка</h4>
+                <p class="text-sm text-gray-400">Затишна кав’ярня у центрі Стрия для справжніх поціновувачів кавової культури.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">вул. Тараса Шевченка, 28, Стрий</p>
+                <p class="text-sm text-gray-400 mb-2">+380951212745</p>
+                <p class="text-sm text-gray-400">info@kava-vid-striyka.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Години роботи</h4>
+                <p class="text-sm text-gray-400 mb-2">Щодня з 09:00 до 21:00</p>
+                <div class="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/kava_vid_striyka/" target="_blank" class="text-amber-400 hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/kavavidstriyka" target="_blank" class="text-amber-400 hover:underline">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
